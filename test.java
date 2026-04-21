@@ -1,11 +1,11 @@
-public class Main {
-  public static void main(String[] args) {
-    System.out.println("Hello World");
-  }
+interface Interface1 {
+    static void print() {
+        System.out.print("Hello");
+    }
 }
 
-int[] numbers = {10, 20, 30, 40};
-
-for (int i = 0; i < numbers.length; i++) {
-  System.out.println(numbers[i]);
+interface Interface2 {
+    static void print() {
+        System.out.print("World!");
+    }
 }
